@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F58A34703C2FE6E2A0A3199 /* Pods_sample_calendar_views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFA4EA74E3C7A0A2B2D595E /* Pods_sample_calendar_views.framework */; };
+		6A00AFF421B4C4B600C94081 /* launchScreenDIY.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A00AFF321B4C4B500C94081 /* launchScreenDIY.xib */; };
+		DC0B910921B49F9F006DF6BC /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B910821B49F9F006DF6BC /* BasicBarChart.swift */; };
+		DC433CE921ACF0E800164999 /* AlertPopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC433CE721ACF0E800164999 /* AlertPopupViewController.storyboard */; };
+		DC534C9F21B3AC21005C6C3A /* DownloadViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC534C9D21B3AC21005C6C3A /* DownloadViewController.storyboard */; };
+		DC534CA121B3AD1B005C6C3A /* DownloadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC534CA021B3AD1B005C6C3A /* DownloadImageViewController.swift */; };
+		DC534CA421B3B6A3005C6C3A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC534CA221B3B6A3005C6C3A /* Profile.storyboard */; };
+		DC534CA621B3B6D2005C6C3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC534CA521B3B6D2005C6C3A /* ProfileViewController.swift */; };
+		DC534CA821B45C27005C6C3A /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC534CA721B45C27005C6C3A /* NotificationName+Extension.swift */; };
+		DC55BBD521ACEAFA004AE483 /* AlertPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55BBD421ACEAFA004AE483 /* AlertPopupViewController.swift */; };
+		DC7488B021B203D7000B97B4 /* WeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7488AF21B203D7000B97B4 /* WeekCollectionViewCell.swift */; };
+		DC75DD0421A7315D00E8D1D2 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD0321A7315D00E8D1D2 /* Emoji.swift */; };
+		DC75DD0821A7444C00E8D1D2 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD0721A7444C00E8D1D2 /* CalendarHelper.swift */; };
+		DC75DD0A21A770D300E8D1D2 /* ClipboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD0921A770D300E8D1D2 /* ClipboardCollectionViewCell.swift */; };
+		DC75DD0C21A7716400E8D1D2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD0B21A7716400E8D1D2 /* GradientView.swift */; };
+		DC75DD0E21A771AA00E8D1D2 /* ClipboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD0D21A771AA00E8D1D2 /* ClipboardViewController.swift */; };
+		DC75DD1021A7819900E8D1D2 /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD0F21A7819900E8D1D2 /* SearchData.swift */; };
+		DC75DD1221A781C300E8D1D2 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1121A781C300E8D1D2 /* PersistanceService.swift */; };
+		DC75DD1421A895B900E8D1D2 /* EmojiTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1321A895B900E8D1D2 /* EmojiTrackerViewController.swift */; };
+		DC75DD1621A89B7100E8D1D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1521A89B7100E8D1D2 /* SearchViewController.swift */; };
+		DC75DD1821A89E8700E8D1D2 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1721A89E8700E8D1D2 /* SearchCollectionViewCell.swift */; };
+		DC75DD1A21A8C88A00E8D1D2 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1921A8C88A00E8D1D2 /* Gallery.swift */; };
+		DC75DD1C21A8CFB200E8D1D2 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1B21A8CFB200E8D1D2 /* DayViewController.swift */; };
+		DC75DD1E21A8D08F00E8D1D2 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1D21A8D08F00E8D1D2 /* DayCell.swift */; };
+		DC75DD2021A8D0B000E8D1D2 /* TimestampCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75DD1F21A8D0B000E8D1D2 /* TimestampCell.swift */; };
+		DCBBBD2F21A621CA00619AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD2E21A621CA00619AF6 /* AppDelegate.swift */; };
+		DCBBBD3121A621CA00619AF6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD3021A621CA00619AF6 /* MasterViewController.swift */; };
+		DCBBBD3421A621CA00619AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBBBD3221A621CA00619AF6 /* Main.storyboard */; };
+		DCBBBD3721A621CA00619AF6 /* sample-calendar-views.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD3521A621CA00619AF6 /* sample-calendar-views.xcdatamodeld */; };
+		DCBBBD3921A621CB00619AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBBBD3821A621CB00619AF6 /* Assets.xcassets */; };
+		DCBBBD3C21A621CB00619AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBBBD3A21A621CB00619AF6 /* LaunchScreen.storyboard */; };
+		DCBBBD4421A6565F00619AF6 /* MonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD4321A6565E00619AF6 /* MonthCollectionViewCell.swift */; };
+		DCBBBD4921A656D000619AF6 /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD4821A656D000619AF6 /* MonthViewController.swift */; };
+		DCBBBD4D21A664B100619AF6 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD4C21A664B100619AF6 /* WeekViewController.swift */; };
+		DCBBBD4F21A666F300619AF6 /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD4E21A666F300619AF6 /* WeekTableViewCell.swift */; };
+		DCBBBD5121A66BB600619AF6 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD5021A66BB600619AF6 /* Month.swift */; };
+		DCBBBD5321A66BDA00619AF6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBD5221A66BDA00619AF6 /* Event.swift */; };
+		DCBD484921AE139B0043B6AB /* ImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD484821AE139B0043B6AB /* ImageProtocol.swift */; };
+		DCBD484D21AF34630043B6AB /* EmojiTrackerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD484C21AF34630043B6AB /* EmojiTrackerHelper.swift */; };
+		DCE3180621B066CC00545315 /* EventPopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3180421B066CC00545315 /* EventPopupViewController.storyboard */; };
+		DCE3180821B06C7B00545315 /* EventPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3180721B06C7B00545315 /* EventPopupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CFA4EA74E3C7A0A2B2D595E /* Pods_sample_calendar_views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_calendar_views.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A00AFF321B4C4B500C94081 /* launchScreenDIY.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launchScreenDIY.xib; sourceTree = "<group>"; };
+		B663CD292447A27DBA1D4598 /* Pods-sample-calendar-views.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-calendar-views.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-calendar-views/Pods-sample-calendar-views.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0B910521B49DCC006DF6BC /* sample-calendar-views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-calendar-views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0B910821B49F9F006DF6BC /* BasicBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		DC433CE821ACF0E800164999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "sample-calendar-views/Resources/Storyboards/Base.lproj/AlertPopupViewController.storyboard"; sourceTree = "<group>"; };
+		DC534C9E21B3AC21005C6C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "sample-calendar-views/Resources/Storyboards/Base.lproj/DownloadViewController.storyboard"; sourceTree = "<group>"; };
+		DC534CA021B3AD1B005C6C3A /* DownloadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageViewController.swift; sourceTree = "<group>"; };
+		DC534CA321B3B6A3005C6C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "sample-calendar-views/Resources/Storyboards/Base.lproj/Profile.storyboard"; sourceTree = "<group>"; };
+		DC534CA521B3B6D2005C6C3A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DC534CA721B45C27005C6C3A /* NotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
+		DC55BBD421ACEAFA004AE483 /* AlertPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopupViewController.swift; sourceTree = "<group>"; };
+		DC7488AF21B203D7000B97B4 /* WeekCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC75DD0321A7315D00E8D1D2 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		DC75DD0721A7444C00E8D1D2 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		DC75DD0921A770D300E8D1D2 /* ClipboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC75DD0B21A7716400E8D1D2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DC75DD0D21A771AA00E8D1D2 /* ClipboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardViewController.swift; sourceTree = "<group>"; };
+		DC75DD0F21A7819900E8D1D2 /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
+		DC75DD1121A781C300E8D1D2 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		DC75DD1321A895B900E8D1D2 /* EmojiTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTrackerViewController.swift; sourceTree = "<group>"; };
+		DC75DD1521A89B7100E8D1D2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DC75DD1721A89E8700E8D1D2 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC75DD1921A8C88A00E8D1D2 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		DC75DD1B21A8CFB200E8D1D2 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		DC75DD1D21A8D08F00E8D1D2 /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		DC75DD1F21A8D0B000E8D1D2 /* TimestampCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimestampCell.swift; sourceTree = "<group>"; };
+		DCBBBD2E21A621CA00619AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCBBBD3021A621CA00619AF6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DCBBBD3321A621CA00619AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCBBBD3621A621CA00619AF6 /* sample_calendar_views.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sample_calendar_views.xcdatamodel; sourceTree = "<group>"; };
+		DCBBBD3821A621CB00619AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCBBBD3B21A621CB00619AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCBBBD3D21A621CB00619AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBBBD4321A6565E00619AF6 /* MonthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCBBBD4821A656D000619AF6 /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		DCBBBD4C21A664B100619AF6 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		DCBBBD4E21A666F300619AF6 /* WeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
+		DCBBBD5021A66BB600619AF6 /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		DCBBBD5221A66BDA00619AF6 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DCBD484821AE139B0043B6AB /* ImageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProtocol.swift; sourceTree = "<group>"; };
+		DCBD484C21AF34630043B6AB /* EmojiTrackerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTrackerHelper.swift; sourceTree = "<group>"; };
+		DCE3180521B066CC00545315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "sample-calendar-views/Resources/Storyboards/Base.lproj/EventPopupViewController.storyboard"; sourceTree = "<group>"; };
+		DCE3180721B06C7B00545315 /* EventPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPopupViewController.swift; sourceTree = "<group>"; };
+		E5C24E8AB995998B38604A6B /* Pods-sample-calendar-views.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-calendar-views.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-calendar-views/Pods-sample-calendar-views.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCBBBD2821A621CA00619AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F58A34703C2FE6E2A0A3199 /* Pods_sample_calendar_views.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ED02A1718D69C13AFEA4B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA4EA74E3C7A0A2B2D595E /* Pods_sample_calendar_views.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		354C70D8F10296CEE0B2408D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B663CD292447A27DBA1D4598 /* Pods-sample-calendar-views.debug.xcconfig */,
+				E5C24E8AB995998B38604A6B /* Pods-sample-calendar-views.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC433CEC21AD03FE00164999 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC534CA721B45C27005C6C3A /* NotificationName+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC55BBD621ACF01A004AE483 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBBD3221A621CA00619AF6 /* Main.storyboard */,
+				DCE3180421B066CC00545315 /* EventPopupViewController.storyboard */,
+				DC433CE721ACF0E800164999 /* AlertPopupViewController.storyboard */,
+				DC534CA221B3B6A3005C6C3A /* Profile.storyboard */,
+				DC534C9D21B3AC21005C6C3A /* DownloadViewController.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DCBBBD2221A621CA00619AF6 = {
+			isa = PBXGroup;
+			children = (
+				6A00AFF321B4C4B500C94081 /* launchScreenDIY.xib */,
+				DCBBBD2D21A621CA00619AF6 /* sample-calendar-views */,
+				DC0B910521B49DCC006DF6BC /* sample-calendar-views.app */,
+				354C70D8F10296CEE0B2408D /* Pods */,
+				2ED02A1718D69C13AFEA4B8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCBBBD2D21A621CA00619AF6 /* sample-calendar-views */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD484721AE137F0043B6AB /* Protocols */,
+				DC433CEC21AD03FE00164999 /* Extensions */,
+				DCBBBD5721A66D8400619AF6 /* Data */,
+				DCBBBD5621A66D7700619AF6 /* Views */,
+				DCBBBD5521A66D5A00619AF6 /* Helpers */,
+				DCBBBD5421A66C5400619AF6 /* Model */,
+				DCBBBD4B21A6608700619AF6 /* Resources */,
+				DCBBBD4A21A6607400619AF6 /* View Controllers */,
+				DCBBBD4521A6567800619AF6 /* Cell */,
+			);
+			path = "sample-calendar-views";
+			sourceTree = "<group>";
+		};
+		DCBBBD4521A6567800619AF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC75DD0921A770D300E8D1D2 /* ClipboardCollectionViewCell.swift */,
+				DCBBBD4321A6565E00619AF6 /* MonthCollectionViewCell.swift */,
+				DCBBBD4E21A666F300619AF6 /* WeekTableViewCell.swift */,
+				DC75DD1721A89E8700E8D1D2 /* SearchCollectionViewCell.swift */,
+				DC75DD1D21A8D08F00E8D1D2 /* DayCell.swift */,
+				DC75DD1F21A8D0B000E8D1D2 /* TimestampCell.swift */,
+				DC7488AF21B203D7000B97B4 /* WeekCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DCBBBD4A21A6607400619AF6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBBD3021A621CA00619AF6 /* MasterViewController.swift */,
+				DCBBBD4821A656D000619AF6 /* MonthViewController.swift */,
+				DCBBBD4C21A664B100619AF6 /* WeekViewController.swift */,
+				DC75DD0D21A771AA00E8D1D2 /* ClipboardViewController.swift */,
+				DC75DD1321A895B900E8D1D2 /* EmojiTrackerViewController.swift */,
+				DC75DD1521A89B7100E8D1D2 /* SearchViewController.swift */,
+				DC75DD1B21A8CFB200E8D1D2 /* DayViewController.swift */,
+				DC55BBD421ACEAFA004AE483 /* AlertPopupViewController.swift */,
+				DCE3180721B06C7B00545315 /* EventPopupViewController.swift */,
+				DC534CA021B3AD1B005C6C3A /* DownloadImageViewController.swift */,
+				DC534CA521B3B6D2005C6C3A /* ProfileViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DCBBBD4B21A6608700619AF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC55BBD621ACF01A004AE483 /* Storyboards */,
+				DCBBBD2E21A621CA00619AF6 /* AppDelegate.swift */,
+				DCBBBD3D21A621CB00619AF6 /* Info.plist */,
+				DCBBBD3521A621CA00619AF6 /* sample-calendar-views.xcdatamodeld */,
+				DCBBBD3821A621CB00619AF6 /* Assets.xcassets */,
+				DCBBBD3A21A621CB00619AF6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCBBBD5421A66C5400619AF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBBD5021A66BB600619AF6 /* Month.swift */,
+				DCBBBD5221A66BDA00619AF6 /* Event.swift */,
+				DC75DD0321A7315D00E8D1D2 /* Emoji.swift */,
+				DC75DD0F21A7819900E8D1D2 /* SearchData.swift */,
+				DC75DD1121A781C300E8D1D2 /* PersistanceService.swift */,
+				DC75DD1921A8C88A00E8D1D2 /* Gallery.swift */,
+				DC0B910821B49F9F006DF6BC /* BasicBarChart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCBBBD5521A66D5A00619AF6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC75DD0721A7444C00E8D1D2 /* CalendarHelper.swift */,
+				DCBD484C21AF34630043B6AB /* EmojiTrackerHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DCBBBD5621A66D7700619AF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC75DD0B21A7716400E8D1D2 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCBBBD5721A66D8400619AF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DCBD484721AE137F0043B6AB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD484821AE139B0043B6AB /* ImageProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCBBBD2A21A621CA00619AF6 /* sample-calendar-views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBBBD4021A621CB00619AF6 /* Build configuration list for PBXNativeTarget "sample-calendar-views" */;
+			buildPhases = (
+				80F6CC19C5619129F32D5A19 /* [CP] Check Pods Manifest.lock */,
+				DCBBBD2721A621CA00619AF6 /* Sources */,
+				DCBBBD2821A621CA00619AF6 /* Frameworks */,
+				DCBBBD2921A621CA00619AF6 /* Resources */,
+				664B418144417270AAE06587 /* [CP] Embed Pods Frameworks */,
+				77ED003C340E152FD4264D29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-calendar-views";
+			productName = "sample-calendar-views";
+			productReference = DC0B910521B49DCC006DF6BC /* sample-calendar-views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCBBBD2321A621CA00619AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Takudzwa Mhonde";
+				TargetAttributes = {
+					DCBBBD2A21A621CA00619AF6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DCBBBD2621A621CA00619AF6 /* Build configuration list for PBXProject "sample-calendar-views" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCBBBD2221A621CA00619AF6;
+			productRefGroup = DCBBBD2221A621CA00619AF6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCBBBD2A21A621CA00619AF6 /* sample-calendar-views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCBBBD2921A621CA00619AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE3180621B066CC00545315 /* EventPopupViewController.storyboard in Resources */,
+				DCBBBD3C21A621CB00619AF6 /* LaunchScreen.storyboard in Resources */,
+				DC433CE921ACF0E800164999 /* AlertPopupViewController.storyboard in Resources */,
+				DC534C9F21B3AC21005C6C3A /* DownloadViewController.storyboard in Resources */,
+				DCBBBD3921A621CB00619AF6 /* Assets.xcassets in Resources */,
+				6A00AFF421B4C4B600C94081 /* launchScreenDIY.xib in Resources */,
+				DC534CA421B3B6A3005C6C3A /* Profile.storyboard in Resources */,
+				DCBBBD3421A621CA00619AF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		664B418144417270AAE06587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sample-calendar-views/Pods-sample-calendar-views-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMPopTip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-calendar-views/Pods-sample-calendar-views-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77ED003C340E152FD4264D29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-calendar-views/Pods-sample-calendar-views-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F6CC19C5619129F32D5A19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sample-calendar-views-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCBBBD2721A621CA00619AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75DD0421A7315D00E8D1D2 /* Emoji.swift in Sources */,
+				DCBBBD4D21A664B100619AF6 /* WeekViewController.swift in Sources */,
+				DCBBBD5321A66BDA00619AF6 /* Event.swift in Sources */,
+				DCBBBD3121A621CA00619AF6 /* MasterViewController.swift in Sources */,
+				DC75DD2021A8D0B000E8D1D2 /* TimestampCell.swift in Sources */,
+				DCBBBD4921A656D000619AF6 /* MonthViewController.swift in Sources */,
+				DC0B910921B49F9F006DF6BC /* BasicBarChart.swift in Sources */,
+				DC7488B021B203D7000B97B4 /* WeekCollectionViewCell.swift in Sources */,
+				DCBD484921AE139B0043B6AB /* ImageProtocol.swift in Sources */,
+				DC75DD1C21A8CFB200E8D1D2 /* DayViewController.swift in Sources */,
+				DC75DD1221A781C300E8D1D2 /* PersistanceService.swift in Sources */,
+				DCBBBD4F21A666F300619AF6 /* WeekTableViewCell.swift in Sources */,
+				DCBBBD5121A66BB600619AF6 /* Month.swift in Sources */,
+				DC534CA621B3B6D2005C6C3A /* ProfileViewController.swift in Sources */,
+				DCE3180821B06C7B00545315 /* EventPopupViewController.swift in Sources */,
+				DC75DD0821A7444C00E8D1D2 /* CalendarHelper.swift in Sources */,
+				DC75DD1E21A8D08F00E8D1D2 /* DayCell.swift in Sources */,
+				DC534CA121B3AD1B005C6C3A /* DownloadImageViewController.swift in Sources */,
+				DCBBBD4421A6565F00619AF6 /* MonthCollectionViewCell.swift in Sources */,
+				DC75DD0A21A770D300E8D1D2 /* ClipboardCollectionViewCell.swift in Sources */,
+				DC75DD0C21A7716400E8D1D2 /* GradientView.swift in Sources */,
+				DC75DD1621A89B7100E8D1D2 /* SearchViewController.swift in Sources */,
+				DCBBBD3721A621CA00619AF6 /* sample-calendar-views.xcdatamodeld in Sources */,
+				DCBBBD2F21A621CA00619AF6 /* AppDelegate.swift in Sources */,
+				DCBD484D21AF34630043B6AB /* EmojiTrackerHelper.swift in Sources */,
+				DC75DD1021A7819900E8D1D2 /* SearchData.swift in Sources */,
+				DC75DD1A21A8C88A00E8D1D2 /* Gallery.swift in Sources */,
+				DC55BBD521ACEAFA004AE483 /* AlertPopupViewController.swift in Sources */,
+				DC75DD0E21A771AA00E8D1D2 /* ClipboardViewController.swift in Sources */,
+				DC534CA821B45C27005C6C3A /* NotificationName+Extension.swift in Sources */,
+				DC75DD1821A89E8700E8D1D2 /* SearchCollectionViewCell.swift in Sources */,
+				DC75DD1421A895B900E8D1D2 /* EmojiTrackerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC433CE721ACF0E800164999 /* AlertPopupViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC433CE821ACF0E800164999 /* Base */,
+			);
+			name = AlertPopupViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		DC534C9D21B3AC21005C6C3A /* DownloadViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC534C9E21B3AC21005C6C3A /* Base */,
+			);
+			name = DownloadViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		DC534CA221B3B6A3005C6C3A /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC534CA321B3B6A3005C6C3A /* Base */,
+			);
+			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBBBD3221A621CA00619AF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBBBD3321A621CA00619AF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBBBD3A21A621CB00619AF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBBBD3B21A621CB00619AF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCE3180421B066CC00545315 /* EventPopupViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE3180521B066CC00545315 /* Base */,
+			);
+			name = EventPopupViewController.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCBBBD3E21A621CB00619AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCBBBD3F21A621CB00619AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCBBBD4121A621CB00619AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B663CD292447A27DBA1D4598 /* Pods-sample-calendar-views.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5RKPV9KD7;
+				INFOPLIST_FILE = "$(SRCROOT)/sample-calendar-views/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pinnacleStudios.sample-calendar-views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCBBBD4221A621CB00619AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C24E8AB995998B38604A6B /* Pods-sample-calendar-views.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5RKPV9KD7;
+				INFOPLIST_FILE = "$(SRCROOT)/sample-calendar-views/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pinnacleStudios.sample-calendar-views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBBBD2621A621CA00619AF6 /* Build configuration list for PBXProject "sample-calendar-views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBBBD3E21A621CB00619AF6 /* Debug */,
+				DCBBBD3F21A621CB00619AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBBBD4021A621CB00619AF6 /* Build configuration list for PBXNativeTarget "sample-calendar-views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBBBD4121A621CB00619AF6 /* Debug */,
+				DCBBBD4221A621CB00619AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCBBBD3521A621CA00619AF6 /* sample-calendar-views.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCBBBD3621A621CA00619AF6 /* sample_calendar_views.xcdatamodel */,
+			);
+			currentVersion = DCBBBD3621A621CA00619AF6 /* sample_calendar_views.xcdatamodel */;
+			path = "sample-calendar-views.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCBBBD2321A621CA00619AF6 /* Project object */;
+}

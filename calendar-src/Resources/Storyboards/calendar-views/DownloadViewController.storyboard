@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Download Image View Controller-->
+        <scene sceneID="Lj8-qh-bHh">
+            <objects>
+                <viewController storyboardIdentifier="DownloadImageViewController" id="WyH-ie-4Pu" customClass="DownloadImageViewController" customModule="sample_calendar_views" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.84999999999999998" contentMode="scaleToFill" id="2tU-PM-cnc">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzM-l0-rnM">
+                                <rect key="frame" x="134" y="262" width="500" height="500"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLP-2p-Wdl">
+                                        <rect key="frame" x="147.5" y="387" width="205" height="42"/>
+                                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="I5y-fk-n83"/>
+                                            <constraint firstAttribute="width" constant="205" id="raN-Lc-nr0"/>
+                                        </constraints>
+                                        <state key="normal" title="Download"/>
+                                        <connections>
+                                            <action selector="downloadButtonPressed" destination="WyH-ie-4Pu" eventType="touchUpInside" id="vQ6-mT-gf5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QI-VX-bpr">
+                                        <rect key="frame" x="147.5" y="437" width="205" height="44"/>
+                                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="205" id="Poa-6k-dpp"/>
+                                            <constraint firstAttribute="height" constant="44" id="g40-dc-443"/>
+                                        </constraints>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="1" green="0.18546817160000001" blue="0.21165761869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelButtonPressed" destination="WyH-ie-4Pu" eventType="touchUpInside" id="30X-vq-Cct"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1A6-6g-0FJ">
+                                        <rect key="frame" x="68" y="28" width="364" height="324"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="324" id="Pae-Nc-WRB"/>
+                                            <constraint firstAttribute="width" constant="364" id="fJM-Yi-PiV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="1A6-6g-0FJ" firstAttribute="centerX" secondItem="vzM-l0-rnM" secondAttribute="centerX" id="9Dg-Kj-U03"/>
+                                    <constraint firstItem="4QI-VX-bpr" firstAttribute="top" secondItem="tLP-2p-Wdl" secondAttribute="bottom" constant="8" id="Mf4-Si-hhY"/>
+                                    <constraint firstItem="1A6-6g-0FJ" firstAttribute="top" secondItem="vzM-l0-rnM" secondAttribute="top" constant="28" id="Mi7-yt-Kyf"/>
+                                    <constraint firstAttribute="width" constant="500" id="Szh-lg-zQ4"/>
+                                    <constraint firstItem="tLP-2p-Wdl" firstAttribute="top" secondItem="1A6-6g-0FJ" secondAttribute="bottom" constant="35" id="ebU-m0-8XR"/>
+                                    <constraint firstItem="4QI-VX-bpr" firstAttribute="centerX" secondItem="vzM-l0-rnM" secondAttribute="centerX" id="h8I-qp-8He"/>
+                                    <constraint firstAttribute="height" constant="500" id="hf4-kB-ktT"/>
+                                    <constraint firstItem="tLP-2p-Wdl" firstAttribute="centerX" secondItem="vzM-l0-rnM" secondAttribute="centerX" id="nLf-fe-pp0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vzM-l0-rnM" firstAttribute="centerX" secondItem="2tU-PM-cnc" secondAttribute="centerX" id="Pmp-iQ-uFt"/>
+                            <constraint firstItem="vzM-l0-rnM" firstAttribute="centerY" secondItem="2tU-PM-cnc" secondAttribute="centerY" id="vuC-il-aJh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="00w-4I-fij"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="1A6-6g-0FJ" id="2aR-hr-4GR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwN-vD-l0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3444.53125" y="895.31249999999989"/>
+        </scene>
+    </scenes>
+</document>

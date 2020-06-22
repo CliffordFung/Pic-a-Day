@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DM8-Op-nNU">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="LZZ-jk-4aT">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" id="DM8-Op-nNU" customClass="ProfileViewController" customModule="sample_calendar_views" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.75" contentMode="scaleToFill" id="JOb-Ht-8zj">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTp-Rz-Q9R">
+                                <rect key="frame" x="209" y="287" width="350" height="450"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4h-wY-hpf">
+                                        <rect key="frame" x="50" y="297" width="250" height="50"/>
+                                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="6Qn-5i-Ius"/>
+                                            <constraint firstAttribute="height" constant="50" id="MCY-5H-SKF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
+                                        <state key="normal" title="Logout">
+                                            <color key="titleColor" red="1" green="0.18546817160000001" blue="0.21165761869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="logoutBtnPressed:" destination="DM8-Op-nNU" eventType="touchUpInside" id="dB8-PS-wOe"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ja-fl-1ko">
+                                        <rect key="frame" x="84.5" y="237" width="181" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="181" id="OzQ-a3-UA8"/>
+                                            <constraint firstAttribute="height" constant="40" id="gge-nD-GOe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Skk-bE-Ayu">
+                                        <rect key="frame" x="80" y="17" width="190" height="190"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="190" id="9EK-e7-IiF"/>
+                                            <constraint firstAttribute="height" constant="190" id="soB-FD-T4A"/>
+                                        </constraints>
+                                        <state key="normal" image="placeholder"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageView.layer.cornerRadius">
+                                                <integer key="value" value="95"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="95"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="profileImageBtnPressed:" destination="DM8-Op-nNU" eventType="touchUpInside" id="i9m-MP-PVn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4u-2S-ZAH">
+                                        <rect key="frame" x="50" y="377" width="250" height="50"/>
+                                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Bhf-rj-f0d"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="IOq-vF-ONQ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="N8d-OF-jsd"/>
+                                            <constraint firstAttribute="width" constant="250" id="yu1-3c-Gjs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="cancelBtnPressed:" destination="DM8-Op-nNU" eventType="touchUpInside" id="7SM-IX-W4k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="N4h-wY-hpf" firstAttribute="centerX" secondItem="YTp-Rz-Q9R" secondAttribute="centerX" id="GSK-pJ-6i5"/>
+                                    <constraint firstItem="N4h-wY-hpf" firstAttribute="top" secondItem="2Ja-fl-1ko" secondAttribute="bottom" constant="20" id="Nmt-fP-GID"/>
+                                    <constraint firstItem="2Ja-fl-1ko" firstAttribute="centerX" secondItem="YTp-Rz-Q9R" secondAttribute="centerX" id="QyB-h8-tbM"/>
+                                    <constraint firstItem="Skk-bE-Ayu" firstAttribute="centerX" secondItem="YTp-Rz-Q9R" secondAttribute="centerX" id="Ri7-Zl-6yW"/>
+                                    <constraint firstItem="2Ja-fl-1ko" firstAttribute="top" secondItem="Skk-bE-Ayu" secondAttribute="bottom" constant="30" id="UzS-Vw-dNT"/>
+                                    <constraint firstAttribute="width" constant="350" id="dHR-vg-eeq"/>
+                                    <constraint firstItem="Skk-bE-Ayu" firstAttribute="top" secondItem="YTp-Rz-Q9R" secondAttribute="top" constant="17" id="eYl-yE-BcR"/>
+                                    <constraint firstItem="z4u-2S-ZAH" firstAttribute="top" secondItem="N4h-wY-hpf" secondAttribute="bottom" constant="30" id="ghL-J5-Mu8"/>
+                                    <constraint firstAttribute="height" constant="450" id="sac-ld-FoU"/>
+                                    <constraint firstItem="z4u-2S-ZAH" firstAttribute="centerX" secondItem="N4h-wY-hpf" secondAttribute="centerX" id="vW5-BF-F7Y"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YTp-Rz-Q9R" firstAttribute="centerX" secondItem="JOb-Ht-8zj" secondAttribute="centerX" id="DNO-pl-n23"/>
+                            <constraint firstItem="YTp-Rz-Q9R" firstAttribute="centerY" secondItem="JOb-Ht-8zj" secondAttribute="centerY" id="OMy-5g-2RS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iTq-pP-X96"/>
+                    </view>
+                    <connections>
+                        <outlet property="ProfileImage" destination="Skk-bE-Ayu" id="Gnz-tD-G76"/>
+                        <outlet property="name" destination="2Ja-fl-1ko" id="amg-D0-rVj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="32d-Uz-Uzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3852.5390624999995" y="1058.59375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="placeholder" width="300" height="300"/>
+    </resources>
+</document>
